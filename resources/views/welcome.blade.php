@@ -32,6 +32,9 @@
 </head>
 
 <body>
+    <div class="row">
+        @include('flash-message')
+    </div>
     <div id="page-loader">
         <div class="spinner">
             <div class="bounce1"></div>
@@ -55,9 +58,9 @@
                 <!-- MAIN HEADER -->
                 <div id="main-header" class="row">
                     <div class="col-md-4 col-xs-9">
-                        <a href="" class="site-title underline">becker <span class="colored normal">kúria</span></a>
+                        <a href="" class="underline site-title">becker <span class="colored normal">kúria</span></a>
                     </div>
-                    <div class="col-md-8 col-xs-12  text-right hidden-xs hidden-sm">
+                    <div class="text-right col-md-8 col-xs-12 hidden-xs hidden-sm">
                         <ul id="main-nav">
                             <li><a href="#home" class="smooth-scroll animated-underline">kezdőlap</a></li>
                             <li><a href="#rooms" class="smooth-scroll animated-underline">Szálláshelyek</a></li>
@@ -92,12 +95,12 @@
 
         <!-- HOME -->
         <section id="home" class="hero">
-            <div class="hero-inner container text-center">
+            <div class="container text-center hero-inner">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h1 class="title invisible">Múlt    századi hangulat, <br>mediterrán köntösben.<span class="colored light"></span></h1>
-                        <!-- <p class="description invisible">Múltszázadi hangulat,mediterrán köntösben.</p> -->
-                        <!-- <a href="#rooms" id="hero-book-now" class="button ghost round large invisible smooth-scroll">Learn More</a> -->
+                        <h1 class="invisible title">Múlt    századi hangulat, <br>mediterrán köntösben.<span class="colored light"></span></h1>
+                        <!-- <p class="invisible description">Múltszázadi hangulat,mediterrán köntösben.</p> -->
+                        <!-- <a href="#rooms" id="hero-book-now" class="invisible button ghost round large smooth-scroll">Learn More</a> -->
                     </div>
                 </div>
             </div>
@@ -109,20 +112,20 @@
         <section id="rooms" class="white-space-5 light-bg">
             <div class="container">
                 <div class="row waypoint" data-animate="slideInLeft" data-offset="70">
-                    <div class="col-xs-12 col-md-6 col-md-offset-3 white-space-2 text-center">
-                        <h2 class="light dark-grey underline uppercase">Szálláshelyek</h2>
+                    <div class="text-center col-xs-12 col-md-6 col-md-offset-3 white-space-2">
+                        <h2 class="underline uppercase light dark-grey">Szálláshelyek</h2>
                     </div>
                 </div>
                 <div class="row waypoint" data-offset="70">
                     <div class="col-xs-12">
-                        <ul class="filter-rooms text-center">
+                        <ul class="text-center filter-rooms">
                             <li data-filter="1" class="filter-room-btn active">Összes</li>
                             <li data-filter="2" class="filter-room-btn">Szoba</li>
                             <li data-filter="3" class="filter-room-btn">Lakosztály</li>
                             <!-- <li data-filter="4" class="filter-room-btn">Deluxe</li> -->
                             <!-- <li data-filter="5" class="filter-room-btn">Suite</li> -->
                         </ul>
-                        <div class="filtr-container row text-center">
+                        <div class="text-center filtr-container row">
                             <div class="filtr-item col-md-3 col-sm-6" data-category="1, 2">
                                 <div class="white-space-2 room-box">
                                     <div class="room-image">
@@ -156,8 +159,8 @@
         <section id="dining" class="white-space-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 col-md-offset-3 white-space-2 text-center">
-                        <h2 class="light dark-grey underline uppercase">Étkezés</h2>
+                    <div class="text-center col-xs-12 col-md-6 col-md-offset-3 white-space-2">
+                        <h2 class="underline uppercase light dark-grey">Étkezés</h2>
                     </div>
                 </div>
                 <div class="white-space-3"></div>
@@ -195,7 +198,7 @@
             <div class="container">
                 <div class="">
                     <div class="text-center">
-                        <h2 class="light white underline uppercase text-center">Szolgáltatások</h2>
+                        <h2 class="text-center underline uppercase light white">Szolgáltatások</h2>
                     </div>
                     <div class="service">
                         <div class="service__item white">
@@ -246,7 +249,7 @@
                         </h1>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="light underline uppercase">Rólunk</h4>
+                        <h4 class="underline uppercase light">Rólunk</h4>
                         <p class="light">A part menti dombokra épült, erdők és hegyek ölelésében található Balatonszepezden várjuk
 múltszázadi hangulatú kúriánkba, pihenni vágyó vendégeinket. Az 1850-es években épült kúria, a falu
 központjában,a vízpart közelében,a templomkert szomszédságában korhű állapotában pompázik.
@@ -273,7 +276,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="light underline uppercase white-space-2">Kúria története</h4>
+                        <h4 class="underline uppercase light white-space-2">Kúria története</h4>
                         <p class="light">Eredetileg Felsődörgicsei Nagy Pál (1832-†1891) háza volt, az1850-es években épült. 1887-ben már fürdővendégkönyvet vezettek. 1891-ben Felsődörgicsei Nagy Pál halála után az épületet eladták Gróf Apponyi Henriknek (1885–1936), majd ő ajándékozta a kor ünnepelt szépségének, így lett „Becker Bäby ház”.</p>
                         <p class="light">Bertha Bulcsu (1935-1997) Becker Bäby és a peszticidek c. könyvében a következőket írja: „A szepezdi főútra épült villát már gróf Apponyi Henrik ajándékozta a kor ünnepelt szépségének. A pletyka szerint gróf Apponyi Henrik feleségül akarta venni Becker Bäbyt, de végül nem ő, hanem Heinrich Antal, a gazdag vasgyáros vezette anyakönyvvezető elé.</p>
                         <p class="light">Becker Bäby szepezdi villájába a jobb emberek persze a főkapun szoktak belépni… Urak, művészek, sportolók… A villa gyakori vendége volt a híres vívóbajnok, Petschauer Attila is. A későbbiekben az államosítás után, 70 évig szakszervezeti üdülőként működött. Teljes körű felújítás után, jelenleg panzióként üzemel.</p>
@@ -288,7 +291,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                         </h1>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="light underline uppercase">Customer Reviews</h4>
+                        <h4 class="underline uppercase light">Customer Reviews</h4>
                         <div class="owl-carousel owl-theme">
                             <div class="white-space-2">
                                 <span class="light">Grace Wright</span>
@@ -353,8 +356,8 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
         <section id="contact-us" class="white-space-5 light-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 col-md-offset-3 white-space-2 text-center">
-                        <h2 class="light dark-grey underline uppercase">Kapcsolatok</h2>
+                    <div class="text-center col-xs-12 col-md-6 col-md-offset-3 white-space-2">
+                        <h2 class="underline uppercase light dark-grey">Kapcsolatok</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -408,44 +411,52 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                         </div> -->
                     </div>
                     <div class="col-md-6">
-                        <h4 class="colored uppercase"><i class="flaticon-edit"></i>Időpont egyeztetés</h4>
+                        <h4 class="uppercase colored"><i class="flaticon-edit"></i>Időpont egyeztetés</h4>
                         <!-- <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic earum, nulla enim.</p> -->
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Teljes Név">
+                        <form action="{{ route('send-mail') }}" method="POST">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Teljes Név" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email-cím" required>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email-cím">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phone" class="form-control" placeholder="Telefonszám" required>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="contact-number" class="form-control" placeholder="Telefonszám">
+                                {{--<div class="col-md-6">--}}
+                                    {{--<input type="text" name="subject" class="form-control" placeholder="Lakcím">--}}
+                                    {{--</div>--}}
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Tárgy" required>
+                                    </div>
                                 </div>
+                            </div> 
+                            {{--<div class="row">--}}
+                                {{--<div class="col-md-6">--}}
+                                    {{--<div class="form-group">--}}
+                                        {{--<input type="text" name="contact-number" class="form-control" placeholder="Tárgy">--}}
+                                        {{--</div>--}}
+                                    {{--</div>--}}
+
+                                {{--</div>--}}
+                            <div class="form-group">
+                                <textarea name="message" class="form-control" rows="7" placeholder="Üzenet" required></textarea>
                             </div>
-                            <div class="col-md-6">
-                                <input type="text" name="subject" class="form-control" placeholder="Lakcím">
+                            <div class="form-group">
+                                <button class="button large dark">Küldés</button>
                             </div>
-                        </div> 
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="contact-number" class="form-control" placeholder="Tárgy">
-                                </div>
-                            </div>
-                           
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" rows="7" placeholder="Üzenet"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button class="button large dark">Küldés</button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -510,7 +521,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                             <div class="row">
                                 <div class="col-md-6">
                                     <h4>Szobafelszereltség</h4>
-                                    <p class="light text-justify">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők</p>
+                                    <p class="text-justify light">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők</p>
                                     <div class="white-space-2"></div>
                                 </div>
                                 <div class="col-md-6">
@@ -609,7 +620,7 @@ tartozik.<br> A feltüntetett árak az idegenforgalmi és áruforgalmi adót tar
                             <div class="row">
                                 <div class="col-md-6">
                                     <h4>Szobafelszereltség</h4>
-                                    <p class="light text-justify">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők, reggeli elkészítésére alkalmas eszközök: Nespresso kapszulás kávéfőző,
+                                    <p class="text-justify light">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők, reggeli elkészítésére alkalmas eszközök: Nespresso kapszulás kávéfőző,
 vízforraló, pirítós sütő, hűtőszekrény, tányérok, poharak, evőeszközök</p>
                                     <div class="white-space-2"></div>
                                 </div>
@@ -627,7 +638,7 @@ vízforraló, pirítós sütő, hűtőszekrény, tányérok, poharak, evőeszkö
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Leírás</h4>
-                            <p class="light text-justify">A kúriában 3 darab, 35-45 nm közötti, két légteres lakosztály található, melyekhez 3-5 nm-es
+                            <p class="text-justify light">A kúriában 3 darab, 35-45 nm közötti, két légteres lakosztály található, melyekhez 3-5 nm-es
 zuhanyzós fürdőszoba tartozik. A hálószobában kétszemélyes franciaágy, míg a nappaliban kihúzható
 kanapé van elhelyezve, mely maximum két, 14 éven aluli személy számára vehető igénybe. A
 teraszon kerti garnitúra található.<br> A feltüntetett árak az idegenforgalmi és áruforgalmi adót tartalmazzák.</p>

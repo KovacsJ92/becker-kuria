@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::post('send-mail', [ 'as' => 'send-mail', 'uses' => 'MailsController@sendMail']);
