@@ -277,9 +277,9 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                     </div>
                     <div class="col-md-6">
                         <h4 class="underline uppercase light white-space-2">Kúria története</h4>
-                        <p class="light">Eredetileg Felsődörgicsei Nagy Pál (1832-†1891) háza volt, az1850-es években épült. 1887-ben már fürdővendégkönyvet vezettek. 1891-ben Felsődörgicsei Nagy Pál halála után az épületet eladták Gróf Apponyi Henriknek (1885–1936), majd ő ajándékozta a kor ünnepelt szépségének, így lett „Becker Bäby ház”.</p>
+                        <p class="light">Eredetileg Felsődörgicsei Nagy Pál (1832-†1891) háza volt, az1850-es években épült. Az ide látogató vendégekrõl 1887-ben már fürdővendégkönyvet vezettek. Felsődörgicsei Nagy Pál örökösei az épületet eladták Gróf Apponyi Henriknek (1885–1936), majd ő ajándékozta a kor ünnepelt szépségének, így lett „Becker Bäby ház”.</p>
                         <p class="light">Bertha Bulcsu (1935-1997) Becker Bäby és a peszticidek c. könyvében a következőket írja: „A szepezdi főútra épült villát már gróf Apponyi Henrik ajándékozta a kor ünnepelt szépségének. A pletyka szerint gróf Apponyi Henrik feleségül akarta venni Becker Bäbyt, de végül nem ő, hanem Heinrich Antal, a gazdag vasgyáros vezette anyakönyvvezető elé.</p>
-                        <p class="light">Becker Bäby szepezdi villájába a jobb emberek persze a főkapun szoktak belépni… Urak, művészek, sportolók… A villa gyakori vendége volt a híres vívóbajnok, Petschauer Attila is. A későbbiekben az államosítás után, 70 évig szakszervezeti üdülőként működött. Teljes körű felújítás után, jelenleg panzióként üzemel.</p>
+                        <p class="light">Becker Bäby szepezdi villájába a jobb emberek persze a főkapun szoktak belépni… Urak, művészek, sportolók… A villa gyakori vendége volt a híres vívóbajnok, Petschauer Attila is." A későbbiekben az államosítás után, 70 évig szakszervezeti üdülőként működött. Teljes körű felújítás után, jelenleg panzióként üzemel.</p>
                         <!-- <a href="#" class="button">Read More</a> -->
                     </div>
                 </div>
@@ -511,7 +511,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                             <div class="row">
                                 <div class="col-sm-6">
                                     <h2>36.000 Ft<small>/2fő/éj</small></h2>
-                                    <p class="light">Az ár nem tartalmazza egyik étkezést sem.</p>
+                                    <p class="light">Az ár az étkezéseket nem tartalmazza.</p>
                                 </div>
                                 <!-- <div class="col-sm-6">
                                     <button class="button ghost white hotel-book-now" data-toggle="modal" data-target="#booking-form-modal">Book Now</button>
@@ -521,7 +521,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                             <div class="row">
                                 <div class="col-md-6">
                                     <h4>Szobafelszereltség</h4>
-                                    <p class="text-justify light">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők</p>
+                                    <p class="text-justify light">Fürdőszoba, 4k okos TV, hajszárító, zuhany, WC, törölközők</p>
                                     <div class="white-space-2"></div>
                                 </div>
                                 <div class="col-md-6">
@@ -538,7 +538,7 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
                     <div class="row">
                         <div class="col-xs-12">
                             <h4>Leírás</h4>
-                            <p class="light">A kúriában 6 darab,20 nm-es két ágyas szoba található, melyekhez 3 nm-es zuhanyzós fürdőszoba
+                            <p class="light">A kúriában 6 darab, 22 nm-es két ágyas szoba található, melyekhez 3 nm-es zuhanyzós fürdőszoba
 tartozik.<br> A feltüntetett árak az idegenforgalmi és áruforgalmi adót tartalmazzák.</p>
                         </div>
                     </div>
@@ -579,7 +579,7 @@ tartozik.<br> A feltüntetett árak az idegenforgalmi és áruforgalmi adót tar
                                     <li data-target="#room-images" data-slide-to="0" class="active"></li>
                                     <li data-target="#room-images" data-slide-to="1"></li>
                                     <li data-target="#room-images" data-slide-to="2"></li>
-                                    <li data-target="#room-images" data-slide-to="3"></li>
+                                    <li data-target="#room-images" data-slide-to="2"></li>
                                 </ol>
 
                                 <div class="carousel-inner" role="listbox">
@@ -620,7 +620,7 @@ tartozik.<br> A feltüntetett árak az idegenforgalmi és áruforgalmi adót tar
                             <div class="row">
                                 <div class="col-md-6">
                                     <h4>Szobafelszereltség</h4>
-                                    <p class="text-justify light">Fürdőszoba, íróasztal, 4k okos TV, hajszárító, zuhany, WC, törölközők, reggeli elkészítésére alkalmas eszközök: Nespresso kapszulás kávéfőző,
+                                    <p class="text-justify light">Fürdőszoba, 4k okos TV, hajszárító, zuhany, WC, törölközők, reggeli elkészítésére alkalmas eszközök: Nespresso kapszulás kávéfőző,
 vízforraló, pirítós sütő, hűtőszekrény, tányérok, poharak, evőeszközök</p>
                                     <div class="white-space-2"></div>
                                 </div>
