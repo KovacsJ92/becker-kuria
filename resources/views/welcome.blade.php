@@ -465,6 +465,10 @@ központjában,a vízpart közelében,a templomkert szomszédságában korhű á
         <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.570720556924!2d17.661212316178283!3d46.8521399791419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769af52b02a583b%3A0x340198bb1cc20f83!2sBalatonszepezd%2C%20%C3%81rp%C3%A1d%20u.%209%2C%208252!5e0!3m2!1shu!2shu!4v1589880594677!5m2!1shu!2shu" height="500px" width="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
+        <div class="footer">
+            <p>Copyright © 2020</p>
+            <a href="" data-toggle="modal" data-target="#room-details-modal3">Pályázat</a>
+        </div>
     </div>
     <!-- END OF SITE WRAPPER -->
 
@@ -661,6 +665,32 @@ teraszon kerti garnitúra található.<br> A feltüntetett árak az idegenforgal
                                 magni voluptates delectus at.</p>
                         </div>
                     </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="room-details-modal3" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="flaticon-cross-out"></span></button>
+                    <h4 class="modal-title light">Pályázat</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <img class="model__footer" src="assets/images/default/banner.png" alt="">
+                        <div class="model__text">
+                            <p>A Támogatott projekt a Kisfaludy Turisztikai Fejlesztési Program keretében valósult meg.</p>
+                            <p>Kedvezményezett: EUROHÁZ-INFO Kereskedelmi és Szolgáltató Korlátolt Felelősségű Társaság</p>
+                            <p>Támogatott projekt címe: Minőségi panziófejlesztés a balatonszepezdi településképet meghatározó „Becker Kúria” épületében.</p>
+                            <p>Pályázat azonosító szám: TFC-1-1-1-2017-2018-00380</p>
+                            <p>Támogatási összeg: 36 174 403,- Ft</p>
+                            <p>Támogatás mértéke: 70%</p>
+                            <p>Projekt tartalma: Minőségi panziófejlesztés a Balaton Északi partján elhelyezkedő, Balatonszepezd központi részén. A projekt felújítást, korszerűsítést és új szobák kialakítását tűzte ki célul.</p>
+                            <p>Projekt befejezése: 2020.05.03.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

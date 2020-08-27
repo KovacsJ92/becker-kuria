@@ -790,6 +790,31 @@ a.site-title {
     margin-right: 10px;
 }
 
+.footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.model__footer {
+    max-width: 100%;
+    height: auto;
+}
+
+.model__text {
+    padding-top: 30px;
+}
+
 
 /*===================================================================================================
 	08. MEDIA QUERIES
@@ -832,5 +857,10 @@ a.site-title {
     }
     .filter-rooms li.filter-room-btn {
         padding: 6px 11px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
